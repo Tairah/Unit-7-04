@@ -9,6 +9,6 @@ function click () {
   age = document.getElementById('age').value
   dof = document.getElementById('dayofweek').value
   if ((dof === 'tuesday' || dof === 'thursday') || (age > 10 && age < 16)) {
-    alert('Yes you just earned a studet discount')
+    alert('Yes you just earned a student discount')
   }
 }
